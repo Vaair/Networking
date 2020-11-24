@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		3A2B5A0F256BD72100D2C12A /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5A0E256BD72100D2C12A /* Course.swift */; };
 		3A2B5A13256BDC5C00D2C12A /* WebsiteDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5A12256BDC5C00D2C12A /* WebsiteDescription.swift */; };
+		3A76117C256D08DE007F534C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76117B256D08DD007F534C /* MainViewController.swift */; };
+		3A76117F256D08FE007F534C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76117E256D08FE007F534C /* CollectionViewCell.swift */; };
+		3A761182256D1EA3007F534C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A761181256D1EA3007F534C /* NetworkManager.swift */; };
 		A806CF94210B4EA300574064 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A806CF93210B4EA300574064 /* ImageViewController.swift */; };
 		A8255C80214103450074F6D0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8255C7F214103450074F6D0 /* WebViewController.swift */; };
 		A8255C8421410AFA0074F6D0 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8255C8321410AFA0074F6D0 /* CoursesViewController.swift */; };
 		A8255C8621410DFE0074F6D0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8255C8521410DFE0074F6D0 /* TableViewCell.swift */; };
 		A83C30212108401A00592AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C30202108401A00592AE4 /* AppDelegate.swift */; };
-		A83C30232108401A00592AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C30222108401A00592AE4 /* ViewController.swift */; };
 		A83C30262108401A00592AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83C30242108401A00592AE4 /* Main.storyboard */; };
 		A83C30282108401B00592AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83C30272108401B00592AE4 /* Assets.xcassets */; };
 		A83C302B2108401B00592AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83C30292108401B00592AE4 /* LaunchScreen.storyboard */; };
@@ -23,13 +25,15 @@
 /* Begin PBXFileReference section */
 		3A2B5A0E256BD72100D2C12A /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		3A2B5A12256BDC5C00D2C12A /* WebsiteDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteDescription.swift; sourceTree = "<group>"; };
+		3A76117B256D08DD007F534C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3A76117E256D08FE007F534C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3A761181256D1EA3007F534C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A806CF93210B4EA300574064 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		A8255C7F214103450074F6D0 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		A8255C8321410AFA0074F6D0 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
 		A8255C8521410DFE0074F6D0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A83C301D2108401A00592AE4 /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83C30202108401A00592AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A83C30222108401A00592AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A83C30252108401A00592AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A83C30272108401B00592AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83C302A2108401B00592AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				A83C30202108401A00592AE4 /* AppDelegate.swift */,
-				A83C30222108401A00592AE4 /* ViewController.swift */,
 				A806CF93210B4EA300574064 /* ImageViewController.swift */,
 				A8255C8321410AFA0074F6D0 /* CoursesViewController.swift */,
 				A8255C8521410DFE0074F6D0 /* TableViewCell.swift */,
@@ -75,6 +78,9 @@
 				3A2B5A0E256BD72100D2C12A /* Course.swift */,
 				3A2B5A12256BDC5C00D2C12A /* WebsiteDescription.swift */,
 				A83C30242108401A00592AE4 /* Main.storyboard */,
+				3A761181256D1EA3007F534C /* NetworkManager.swift */,
+				3A76117B256D08DD007F534C /* MainViewController.swift */,
+				3A76117E256D08FE007F534C /* CollectionViewCell.swift */,
 				A83C30272108401B00592AE4 /* Assets.xcassets */,
 				A83C30292108401B00592AE4 /* LaunchScreen.storyboard */,
 				A83C302C2108401B00592AE4 /* Info.plist */,
@@ -154,12 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83C30232108401A00592AE4 /* ViewController.swift in Sources */,
+				3A76117F256D08FE007F534C /* CollectionViewCell.swift in Sources */,
 				3A2B5A0F256BD72100D2C12A /* Course.swift in Sources */,
 				3A2B5A13256BDC5C00D2C12A /* WebsiteDescription.swift in Sources */,
+				3A761182256D1EA3007F534C /* NetworkManager.swift in Sources */,
 				A806CF94210B4EA300574064 /* ImageViewController.swift in Sources */,
 				A8255C80214103450074F6D0 /* WebViewController.swift in Sources */,
 				A83C30212108401A00592AE4 /* AppDelegate.swift in Sources */,
+				3A76117C256D08DE007F534C /* MainViewController.swift in Sources */,
 				A8255C8621410DFE0074F6D0 /* TableViewCell.swift in Sources */,
 				A8255C8421410AFA0074F6D0 /* CoursesViewController.swift in Sources */,
 			);
